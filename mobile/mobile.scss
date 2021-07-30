@@ -39,10 +39,10 @@
 
 .topic-list tbody tr:not(.topic-list-item-separator) td .right .topic-item-stats {
   margin-left: 10px;
-  margin-bottom: 10px;
+  height: auto;
 
   .category {
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
 
   .discourse-tags {
