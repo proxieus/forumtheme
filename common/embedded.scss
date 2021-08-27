@@ -3,13 +3,13 @@ body {
 }
 
 html.sbox {
-  background-color: rgba(37,46,63,.4);
+  background-color: rgba(37, 46, 63, 0.4);
   color: #fff;
   font-size: 13px;
 
   --tertiary: #2b628c;
-  --primary-medium: #ADB3CB;
-  --primary-low: rgba(37,46,63,.8);
+  --primary-medium: #adb3cb;
+  --primary-low: rgba(37, 46, 63, 0.8);
   --primary-low-mid: #7cc4ff;
 
   a {
@@ -18,9 +18,50 @@ html.sbox {
 
   .button {
     color: #fff;
-    background-color: #3273EB;
+    background-color: #3273eb;
     border-radius: 4px;
     padding: 5px 10px;
+  }
+
+  .post-replies {
+    font-size: 10px;
+    padding: 2px 8px;
+    background-color: var(--tertiary);
+    color: var(--primary-low-mid);
+  }
+
+  .username a {
+    color: #fff;
+
+    &.staff {
+      background-color: transparent;
+    }
+  }
+}
+
+html.rust {
+  background-color: transparent;
+  color: #bab1a8;
+  font-size: 13px;
+
+  --tertiary: #2b628c;
+  --primary-medium: #adb3cb;
+  --primary-low: rgba(37, 46, 63, 0.8);
+  --primary-low-mid: #7cc4ff;
+
+  a {
+    color: var(--primary-low-mid);
+  }
+
+  .button {
+    color: #fff;
+    background-color: #c73f2a;
+    border-radius: 0;
+    padding: 5px 10px;
+  }
+
+  .article.post .cooked p {
+    color: #bab1a8;
   }
 
   .post-replies {
