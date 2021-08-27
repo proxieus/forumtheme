@@ -65,7 +65,7 @@ html.rust {
   }
 
   header.discourse {
-    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
   }
 
   .post-replies {
@@ -79,8 +79,8 @@ html.rust {
     color: rgba(255, 255, 255, 0.5);
   }
 
-  .article.post {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  article.post {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .replies {
