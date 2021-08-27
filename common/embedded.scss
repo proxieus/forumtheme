@@ -79,6 +79,10 @@ html.rust {
     color: rgba(255, 255, 255, 0.5);
   }
 
+  .article.post {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
   .replies {
     color: rgba(255, 255, 255, 0.5);
   }
@@ -87,7 +91,7 @@ html.rust {
     color: #fff;
 
     &.staff {
-      background-color: transparent;
+      background-color: #c73f2a;
     }
   }
 }
