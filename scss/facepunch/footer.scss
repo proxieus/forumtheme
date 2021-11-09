@@ -1,2 +1,76 @@
 .footer {
 }
+
+<div class="wrap">
+    <div class="flexbox">
+      <div class="first-box">
+        <div class="heading">
+          facepunch
+        </div>
+        <div class="blurb">
+          community forums for help and discussion of our games
+        </div>
+      </div>
+      <div class="second-box">
+        <div class="links">
+            <div class="list">
+              <span class="friends">
+                FRIENDS
+              </span>
+              <ul>
+                  <li class="footer-section-link-wrapper knockout">
+                    <a class="footer-section-link" href="https://knockout.chat/" target="">
+                      Knockout
+                    </a>
+                  </li>
+              </ul>
+            </div>
+            <div class="list">
+              <span class="games">
+                GAMES
+              </span>
+              <ul>
+                  <li class="footer-section-link-wrapper garry's-mod">
+                    <a class="footer-section-link" href="https://gmod.facepunch.com" target="">
+                      Garry's Mod
+                    </a>
+                  </li>
+                  <li class="footer-section-link-wrapper rust">
+                    <a class="footer-section-link" href="https://rust.facepunch.com" target="">
+                      Rust
+                    </a>
+                  </li>
+              </ul>
+            </div>
+            <div class="list">
+              <span class="facepunch">
+                FACEPUNCH
+              </span>
+              <ul>
+                  <li class="footer-section-link-wrapper our-steam-page">
+                    <a class="footer-section-link" href="https://store.steampowered.com/developer/facepunch" target="">
+                      Our Steam Page
+                    </a>
+                  </li>
+                  <li class="footer-section-link-wrapper our-website">
+                    <a class="footer-section-link" href="https://facepunch.com" target="">
+                      Our Website
+                    </a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="third-box">
+        <div class="footer-links">
+            <a class="small-link privacy" target="" href="https://facepunch.com/legal">Privacy</a>
+            <a class="small-link terms-of-service" target="" href="https://facepunch.com/legal">Terms of service</a>
+        </div>
+        <div class="social">
+            <a class="social-link facebook" title="Join us on Facebook" target="_blank" href="https://www.facebook.com/fcpnch/"><svg class="fa d-icon d-icon-fab-facebook svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#fab-facebook"></use></svg></a>
+            <a class="social-link twitter" title="show some love on Twitter" target="_blank" href="https://twitter.com/fcpnchstds"><svg class="fa d-icon d-icon-fab-twitter svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#fab-twitter"></use></svg></a>
+            <a class="social-link youtube" title="Check out our latest videos on Youtube" target="_blank" href="https://www.youtube.com/channel/UCcw0KZs8oa3QgHnckw7EXXA"><svg class="fa d-icon d-icon-fab-youtube svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#fab-youtube"></use></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
